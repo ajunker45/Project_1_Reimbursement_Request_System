@@ -57,5 +57,17 @@ You will want to put in the correct credentals to your database and its related 
 
 ![](./Images/Connection-properties.PNG)
 
+Next go over to your package structure and open the driver file that is locoated and highlighted below.
+
+![](./Images/Packages-one.PNG)
+
+Then click the green arrow on the upper left circled in the below image. If asked where you want to run it, run it as a java console application.
+
+![](./Images/Run-The-Program.PNG)
+
+Next go to postman, and run the shown get request. From here it should create the datbase structure inside the database you specified inside of your connection.properties file. The request should return an empty set. 
+
+![](./Images/Postman.PNG)
+
 ## Usage
 
