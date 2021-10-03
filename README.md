@@ -51,5 +51,11 @@ Now select The project1 folder that you have pulled from this repo. Note, I alre
 
 ![](./Images/Select-The-Folder.PNG)
 
+Now open the connection.properties File that is in the project. It should be located under src/main/resource
+
+You will want to put in the correct credentals to your database and its related endpoints. For security reasons, I have left out the credentials of my database i used in this project, since it can lead to other people hacking the database. 
+
+![](./Images/Connection-properties.PNG)
+
 ## Usage
 
