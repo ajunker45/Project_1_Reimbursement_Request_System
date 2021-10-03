@@ -35,7 +35,7 @@ To-Do List:
 
 First you should begin by cloning this repository. The image below shows the command you should be using in GIT.
 
-![](.images/Cloning_the_repo.PNG)
+![](.Images/Cloning_the_repo.PNG)
 
 ## Usage
 
