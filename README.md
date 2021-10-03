@@ -12,7 +12,7 @@ The purpose of this project is for employees and managers to be able to log in. 
 * Allows managers to approve and deny requests.
 * Allows managers to see statistics about the requests.
 
-To-Do List:
+##To-Do List:
 * Clean up the front end to make it much more user friendly.
 * Add more statistical Data to the statistics view on manager. 
 
