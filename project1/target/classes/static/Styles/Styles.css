@@ -1,0 +1,17 @@
+.Login_Forum{
+    text-align: center;
+    color: gold;
+}
+
+
+.Reimbursement_Forum{
+    text-align: right;
+    color: goldenrod;
+    padding-right: 50px;
+}
+
+#formItem label{
+    text-align: center;
+}
+
+

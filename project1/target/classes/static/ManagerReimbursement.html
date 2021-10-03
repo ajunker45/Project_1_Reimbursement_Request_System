@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html style = "background-color:rgb(2, 66, 13);">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../Styles/Styles.css"/>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px
+        }
+
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        table, th, td {
+            border:2px solid black;
+        }
+
+    </style>
+
+</head>
+
+
+<body style ="color: goldenrod;">
+
+    <h1 style = "text-align: center;">Welcome Back Manager</h1>
+
+    <div class="row">
+
+        <div id = "left_column" class="column">
+            <!--<button type="button" formmethod="GET" formaction="http://localhost:7000/logouts">Log Out</button>-->
+            <form method="GET" action="http://localhost:7000/logout"> 
+                <input type="submit" value="Log Out" style="width: 500px;">
+            </form>
+
+            <div id  = "New entry">
+                <table id = "RequestTable">
+                    <tr> 
+                        <th>Status</th>
+                        <th>Reason</th>
+                        <th>Amount</th>
+                        <th>Request ID</th>
+                    </tr>
+                    
+                </table>
+            </div>  
+        </div>
+
+        <div id ="right_column" class="column">
+
+            <form action="./Stats.html" style="width: 500px; text-align: right;" > 
+                <input type="submit" value="View Statistics">
+            </form>
+            <div style = "padding-top: 50px;"></div>
+
+            
+            <div id = "Update_ID_Forum" class="Reimbursement_Forum">
+                <form method="POST" action="http://localhost:7000/ReimbursementRequest/update">
+                    <label for ="request_ID" class="Reimbursement_Forum_Label">Request ID</label><br>
+                    <input type="text" id="request_ID" name="request_ID" style="width: 500px;"><br>
+                    <label for ="status_code">Status Code</label><br>
+                    <input type="text" id="status_code" name="status_code" style="height: 50px; width: 500px;"><br><br>
+                    <input type="submit" value="Submit" style="width: 500px;">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./Scripting Power!!!!/AddingToATable.js"></script>
+    <script src="./Scripting Power!!!!/FetchAllRequests.js"></script>
+</body>
+
+
+</html>
