@@ -61,9 +61,11 @@ Now enter the appropriate Information based on what is correct for your database
 
 ![](./Images/Connect-to-database.PNG)
 
+Now right click databases, and click on "Create New DataBase" as shown below, after that you will get a popup to name the database. You will want to remember that for later.
+
 ![](./Images/Create-Database.PNG)
 
-Now open the connection.properties File that is in the project. It should be located under src/main/resource
+Now back to Spring Tools Suite 4, open the connection.properties File that is in the project. It should be located under src/main/resource
 
 You will want to put in the correct credentals to your database and its related endpoints. For security reasons, I have left out the credentials of my database i used in this project, since it can lead to other people hacking the database. 
 
