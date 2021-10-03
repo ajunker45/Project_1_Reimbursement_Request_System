@@ -69,5 +69,14 @@ Next go to postman, and run the shown get request. From here it should create th
 
 ![](./Images/Postman.PNG)
 
+
+
+![](./Images/Stop-Program.PNG)
+![](./Images/Connect-Button.PNG)
+![](./Images/Connect-to-database.PNG)
+![](./Images/Postman.PNG)
+![](./Images/Add-Users.PNG)
+![](./Images/Run-The-Insert.PNG)
+
 ## Usage
 
