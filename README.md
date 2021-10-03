@@ -51,6 +51,18 @@ Now select The project1 folder that you have pulled from this repo. Note, I alre
 
 ![](./Images/Select-The-Folder.PNG)
 
+Now that we have our folder ready to go, we now need to create the database with DBeaver. 
+
+
+First, open Dbeaver, and you will notice the button below in the top left hand corner, you want to click to so that you can add a server.
+![](./Images/Connect-Button.PNG)
+
+Now enter the appropriate Information based on what is correct for your database server. Make sure its the right endpoint, username, password, and port number. 
+
+![](./Images/Connect-to-database.PNG)
+
+![](./Images/Create-Database.PNG)
+
 Now open the connection.properties File that is in the project. It should be located under src/main/resource
 
 You will want to put in the correct credentals to your database and its related endpoints. For security reasons, I have left out the credentials of my database i used in this project, since it can lead to other people hacking the database. 
@@ -72,10 +84,11 @@ Next go to postman, and run the shown get request. From here it should create th
 
 
 ![](./Images/Stop-Program.PNG)
-![](./Images/Connect-Button.PNG)
-![](./Images/Connect-to-database.PNG)
 ![](./Images/Postman.PNG)
 ![](./Images/Add-Users.PNG)
+
+![](./Images/Create-Script.PNG)
+
 ![](./Images/Run-The-Insert.PNG)
 
 ## Usage
