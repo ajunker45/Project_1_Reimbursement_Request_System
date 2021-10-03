@@ -103,3 +103,62 @@ Now the program should be ready for use!
 
 ## Usage
 
+Now, lets start the program and head to the following URL.
+
+![](./Images/Go-To-Url.PNG)
+
+Here we can see the login page for our application.
+
+![](./Images/Login-Page.PNG)
+
+Lets begin by logging in as our first user.
+
+![](./Images/Login-one.PNG)
+
+Once logged in we can see many things that are located on the page, a table that displays all the requests that the user has made, as well as a forum to create a new reimbursement request.
+
+![](./Images/User-Page.PNG)
+
+We can make the request like so, asking for an amount of money, and then a reason as well. 
+
+![](./Images/Request-One.PNG)
+
+We would see that the request table is updated with a new request.
+
+![](./Images/Updated-Request-Table.PNG)
+
+Now we will click the log out button and it will take us back to the login page. We will now log in as a different employee as shown below.
+
+![](./Images/Login-two.PNG)
+
+Notice how that the requests made by our first employee does not show up in this employee's request table. 
+
+![](./Images/different-requests.PNG)
+
+Like normal, we can also create a request like shown below, and submit it to update the request table.
+
+![](./Images/Request-two.PNG)
+
+Now we will login as a manager as shown below, notice it looks just like an employee logging in.
+
+![](./Images/Login-manager.PNG)
+
+When redirected, we are greeted by the manager page, we can see that ALL requests that have ever been made are showing up on the left, and on the right we have a forum that allows us to update the status of requests to either approve or deny reimbursement requests.
+
+![](./Images/Manager-Page.PNG)
+
+The following is how you approve a request.
+
+![](./Images/Approve-Request.PNG)
+
+And the following is how you deny a request. 
+
+![](./Images/Deny-Request.PNG)
+
+As we can see on the left, after submitting both status updates, one request has now been approved, and one request has now been denied.
+
+![](./Images/Request-Status-Update.PNG)
+
+If we click the "View Statistics" Button on that page, we are taken to the statistics page shown below. This is where all statistics about the many requests that have been made display. If we wanted to head back to the manager page, we can click the "go back" button.
+
+![](./Images/Statistics-Page.PNG)
