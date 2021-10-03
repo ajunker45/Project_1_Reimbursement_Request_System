@@ -5,6 +5,21 @@
 The purpose of this project is for employees and managers to be able to log in. Once logged in, an employee can make a request to be reimbursed for a certain amount of money. A manager meanwhile can make either approve or deny requests that are submitted by any user, as well as see statistics about all the requests.=
 ##Technologies Used
 
+## Technologies Used
+
+* JavaScript
+* HTML 5 
+* CSS, SQL 
+* Postman 
+* AWS RDS 
+* Java 8 
+* Javalin 
+* Hibernate
+* MariaDB
+* DBeaver
+* Maven
+* Spring Tools Suite 4
+
 ## Features
 
 * Creates a database system that keeps track of requests, as well as a list of users of who can log in.
@@ -18,6 +33,9 @@ To-Do List:
 
 ## Getting Started
 
+First you should begin by cloning this repository. The image below shows the command you should be using in GIT.
+
+![](.images/Cloning_the_repo.PNG)
 
 ## Usage
 
