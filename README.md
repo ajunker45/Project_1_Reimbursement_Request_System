@@ -43,5 +43,13 @@ Next go to Spring Tools Suite 4 and open the IDE. From there you will begin to i
 
 ![](./Images/Importing-The-Project.PNG)
 
+Then select the type of project you wish to import. In this case, its an existing maven project
+
+![](./Images/Choosing-The-Type.PNG)
+
+Now select The project1 folder that you have pulled from this repo. Note, I already have this in my IDE so it says it already exists, but it shouldn't exist for you. You have done it correctly when you see the pom.xml listed in the box and it is checkmarked.
+
+![](./Images/Select-The-Folder.PNG)
+
 ## Usage
 
