@@ -83,15 +83,23 @@ Next go to postman, and run the shown get request. From here it should create th
 
 ![](./Images/Postman.PNG)
 
-
+Now go ahead and head back to Spring Tools and stop the program for the time being. You can stopo it by clicking on the big red pause button shown below.
 
 ![](./Images/Stop-Program.PNG)
-![](./Images/Postman.PNG)
-![](./Images/Add-Users.PNG)
+
+Next, head back to DBeaver, and go ahead and create a script for our brand new database shown below
 
 ![](./Images/Create-Script.PNG)
 
+Now in order to use the program to its fullest extent, we need to manually add in some users that can sign into the program. By writing the below lines of code inside the script, and then highlighting one line at a time,  we can add these two users into our database. You are free to change the usernames, and passwords of these users as you see fit. The last TRUE or FALSE field, decides if they are a manager, or not. Managers have different roles compared to normal users.
+
+![](./Images/Add-Users.PNG)
+
+And to run a line of script, you highlight the line you want to run, and press the button below on the side of the script. 
+
 ![](./Images/Run-The-Insert.PNG)
+
+Now the program should be ready for use!
 
 ## Usage
 
