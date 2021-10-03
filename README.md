@@ -37,5 +37,11 @@ First you should begin by cloning this repository. The image below shows the com
 
 ![](./Images/Cloning-the-repo.PNG)
 
+Next Make sure you have the latest version of DBeaver, Spring Tools Suite, and have a fresh, empty database hosted on AWS or your prefered web service database.
+
+Next go to Spring Tools Suite 4 and open the IDE. From there you will begin to import the folder as a maven project shown below. 
+
+![](./Images/Importing-The-Project.PNG)
+
 ## Usage
 
