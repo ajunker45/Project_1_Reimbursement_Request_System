@@ -29,7 +29,7 @@ The purpose of this project is for employees and managers to be able to log in. 
 
 To-Do List:
 * Clean up the front end to make it much more user friendly.
-* Add more statistical Data to the statistics view on manager. 
+* Write More Tests for the Service and DAO layers of the application.
 
 ## Getting Started
 
